@@ -14,6 +14,7 @@ extern "C" {
 #define CPU6 (1 << 6)  // 0x40
 #define CPU7 (1 << 7)  // 0x80
 #include <cstdint>
+#include <cstddef>
 /**
  * @typedef LLMHandle
  * @brief A handle used to manage and interact with the large language model.
